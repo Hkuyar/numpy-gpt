@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv?
+cat << 'EOF' > .gitignore 
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.npy 
+*.pt
+*.pth
